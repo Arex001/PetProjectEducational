@@ -25,9 +25,16 @@ namespace PetProjectEducational.Pages._00___Main_Menu
             InitializeComponent();
         }
 
+        private void MainMenuPrevious(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void MainMenuNext(object sender, RoutedEventArgs e)
         {
 
         }
+
+
     }
 }
