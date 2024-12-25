@@ -58,26 +58,46 @@
         </Border>
         <!-- #endregion -->
 
-        
-        <Border Grid.Row="1" Grid.RowSpan="8" Grid.Column="1" Grid.ColumnSpan="6" Margin="5" BorderBrush="Black" BorderThickness="3" Visibility="Visible" Background="Beige">
+        <!-- #region Блок текста. -->
+        <Border Grid.Row="1" Grid.RowSpan="8" Grid.Column="1" Grid.ColumnSpan="3" Margin="5 5 0 5" BorderBrush="Black" BorderThickness="2" Visibility="Visible" Background="Beige">
             <Viewbox>
                 <TextBlock  TextAlignment="Left"  FontWeight="Bold">
-                    На сегодняшний момент язык программирования C# 
+                    C# - это кроссплатформенный
                     <LineBreak/>
-                    один из самых мощных, быстро развивающихся 
+                    язык общего назначения,  
                     <LineBreak/>
-                    и востребованных языков в ИТ-отрасли. В настоящий 
+                    основанный на принципах 
                     <LineBreak/>
-                    момент на нем пишутся самые различные приложения:  
+                    объектно-ориентированного
                     <LineBreak/>
-                    от небольших десктопных программокдо крупных 
+                    программирования.
                     <LineBreak/>
-                    веб-порталов и веб-сервисов, обслуживающих ежедневно 
                     <LineBreak/>
-                    миллионы пользователей.
+                    На сегодняшний момент язык
+                    <LineBreak/>
+                    программирования C# один 
+                    <LineBreak/>
+                    из самых мощных, быстро 
+                    <LineBreak/>
+                    развивающихся и востребованных  
+                    <LineBreak/>
+                    языков в ИТ-отрасли. В настоящий 
+                    <LineBreak/>
+                    момент на нем пишутся самые  
+                    <LineBreak/>
+                    различные приложения: от небольших 
+                    <LineBreak/>
+                    десктопных программок до крупных 
+                    <LineBreak/>
+                    веб-порталов и веб-сервисов,
+                    <LineBreak/>
+                    обслуживающих ежедневно миллионы
+                    <LineBreak/>
+                    пользователей.
                 </TextBlock>
             </Viewbox>
         </Border>
+        <!-- #endregion -->
 
         <!-- #region Кнопка перехода на следующую страницу. -->
         <Border Grid.Row="1" Grid.RowSpan="7" Grid.Column="7" Margin="5" BorderBrush="Black" BorderThickness="2" Visibility="Visible">
