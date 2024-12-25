@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace PetProjectEducational.Pages._00___Main_Menu
 {
     /// <summary>
-    /// Логика взаимодействия для MainMenu.xaml
+    /// Логика взаимодействия для MainMenuPage01.xaml
     /// </summary>
-    public partial class MainMenu : Page
+    public partial class MainMenuPage01 : Page
     {
-        public MainMenu()
+        public MainMenuPage01()
         {
             InitializeComponent();
         }
@@ -34,7 +34,5 @@ namespace PetProjectEducational.Pages._00___Main_Menu
         {
 
         }
-
-
     }
 }
