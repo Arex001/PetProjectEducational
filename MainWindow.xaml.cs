@@ -32,7 +32,7 @@ namespace PetProjectEducational
 
         private void MainMenuTransfer(object sender, RoutedEventArgs e)
         {
-            MainFrameInstance.Content = new MainMenuPage01();
+            MainFrameInstance.Navigate(new MainMenuPage01());
         }
     }
 }
