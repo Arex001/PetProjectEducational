@@ -1,6 +1,4 @@
-﻿using PetProjectEducational.Pages;
-using PetProjectEducational.Pages._00___Main_Menu;
-using System.Text;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -28,11 +26,6 @@ namespace PetProjectEducational
         {
             InitializeComponent();
             MainFrameInstance = MainFrame;
-        }
-
-        private void MainMenuTransfer(object sender, RoutedEventArgs e)
-        {
-            MainFrameInstance.Navigate(new MainMenuPage01());
         }
     }
 }
