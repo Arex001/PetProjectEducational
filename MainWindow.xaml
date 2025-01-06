@@ -8,5 +8,17 @@
         Title="MainWindow" Height="720" Width="1280">
     
     <!-- MainWindow, на который будут накладываться различные страницы. -->
-    <Grid x:Name="MainGrid"/>
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.Row="0" Grid.Column="0">
+            
+        </Viewbox>
+        
+    </Grid>
+
 </Window>
