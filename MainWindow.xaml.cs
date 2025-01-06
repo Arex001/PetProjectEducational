@@ -26,7 +26,7 @@ namespace PetProjectEducational
         public MainWindow()
         {
             InitializeComponent();
-            SetupGrid();
+            //SetupGrid();
         }
 
         public void SetupGrid()
