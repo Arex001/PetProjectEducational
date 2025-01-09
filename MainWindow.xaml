@@ -15,9 +15,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Viewbox Grid.Row="0" Grid.Column="0">
-            
-        </Viewbox>
+        
         
     </Grid>
 

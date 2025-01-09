@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using static PetProjectEducational.CommonUIMethods;
+using static PetProjectEducational.JsonMethods;
 
 namespace PetProjectEducational
 {
